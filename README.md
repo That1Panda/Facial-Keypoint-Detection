@@ -25,7 +25,7 @@ The repository includes:
    - **Custom Layers**: Additional fully connected layers are added to predict the coordinates of facial keypoints.  
 
 3. **Training Process**  
-   - Utilizes a Mean Squared Error (MSE) loss for regression of keypoint coordinates.  
+   - Utilizes L1 Loss (Mean Absolute Error) for regression of keypoint coordinates. 
    - Uses **Adam optimizer** for faster convergence.
 
 4. **Testing on New Images**  
